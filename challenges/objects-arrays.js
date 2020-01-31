@@ -79,7 +79,12 @@ const graduates = [
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
-console.log(universities);
+for (i = 0; i < graduates.length; i++) {
+  graduates[i].university;    
+  universities.push(graduates[i].university);
+}
+
+console.log(universities.sort());
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
