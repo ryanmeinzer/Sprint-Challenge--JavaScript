@@ -39,6 +39,10 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
+// // nestedFunction can access the variable internal because in Javascript, everything is a Closure. Functions aren't just functions; they're closures. 
+//A function's body/enclosure has access to variables that are defined outside of it such as variables that are inside of other functions. 
+//In this case, it's accessing the variable internal although it's outside of the inner function.  
+
 // Explanation: 
 
 
