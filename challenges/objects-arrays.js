@@ -18,6 +18,9 @@ let tyrannosaurus = {
   "weight": "7000kg",
   "length": "12m",
   "period": "Late Cretaceous"
+  roar: function(){
+    return 'RAWERSRARARWERSARARARRRR!';
+	 }
 }
 
 let stegosaurus = {
@@ -52,7 +55,7 @@ console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
