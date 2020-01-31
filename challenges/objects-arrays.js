@@ -174,3 +174,4 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+//I did this for 2. just not enough time for more
