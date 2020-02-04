@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach changes the original array, whereas .map returns a new array (without mutating/changing the original array). Also, .map can be easily combined with other iterative Array operations like .filter and .reduce.
 
 2. What is the difference between a function and a method?
+While both are pieces of code called by a name, data is passed into a function explicitly whereas implicitly into a method. Also, a method must be a member of an object whereas a function can be free of an object. 
 
 3. What is closure?
+Functions aren't just functions; they're closures. A function's body/enclosure has access to variables that are defined outside of it such as variables that are inside of other functions. 
 
 4. Describe the four rules of the 'this' keyword.
+    1. Window/Global - points to the window/global object by default, which is undefined if in Strict mode
+    2. Implicit - points to object of which the function is called (to the left of the dot)
+    3. New - points to a newly constructed object
+    4. Explicit - points to object explicitly from a call, apply or bind method
 
 5. Why do we need super() in an extended class?
+super() accesses and calls functions on a object's parent object, like in an extended class so that super() may pass any new attributes back up to the constructor function of the parent object. 
 
 ## Project Set up
 
